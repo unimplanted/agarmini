@@ -123,7 +123,7 @@
 
         navigation {
             bindings = <
-&trans  &trans  &kp HOME        &kp UP_ARROW  &kp END    &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp DELETE
+&trans  &trans  &kp HOME        &kp UP_ARROW  &kp END    &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans          &trans        &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
         &trans  &trans                        &trans             &trans                  &trans  &trans
