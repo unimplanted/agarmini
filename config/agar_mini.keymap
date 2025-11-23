@@ -121,12 +121,12 @@
             >;
         };
 
-        layer2 {
+        navigation {
             bindings = <
-&trans  &kp HOME        &kp UP_ARROW    &kp END          &kp F2  &trans  &trans  &trans  &trans  &trans    &kp PRINTSCREEN  &trans  &kp DELETE
-&trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp F5  &trans  &trans  &trans  &trans  &trans    &trans           &trans
-&trans  &trans          &trans          &trans           &trans  &trans  &trans  &trans  &trans  &trans    &kp RIGHT_SHIFT  &mo 0
-        &trans          &trans                           &trans          &trans                  &kp RALT  &kp RCTRL
+&trans  &trans  &kp HOME        &kp UP_ARROW  &kp END    &trans  &trans  &trans  &trans  &trans    &kp PRINTSCREEN  &trans  &kp DELETE
+&trans  &trans  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &trans  &trans  &trans  &trans  &trans    &trans           &trans
+&trans  &trans  &trans          &trans        &trans     &trans  &trans  &trans  &trans  &trans    &kp RIGHT_SHIFT  &mo 0
+        &trans  &trans                        &trans             &trans                  &kp RALT  &kp RCTRL
             >;
         };
 
