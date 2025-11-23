@@ -77,6 +77,14 @@
             layers = <0>;
             slow-release;
         };
+
+        mk_bang {
+            bindings = <&kp LS(NUMBER_1)>;
+            key-positions = <1 0>;
+            slow-release;
+            require-prior-idle-ms = <100>;
+            layers = <0>;
+        };
     };
 
     behaviors {
