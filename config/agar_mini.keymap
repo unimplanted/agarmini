@@ -70,7 +70,7 @@
             layers = <0>;
         };
 
-        quit {
+        mk_at {
             bindings = <&kp LS(NUMBER_2)>;
             key-positions = <1 2>;
             require-prior-idle-ms = <100>;
@@ -81,6 +81,70 @@
         mk_bang {
             bindings = <&kp LS(NUMBER_1)>;
             key-positions = <1 0>;
+            slow-release;
+            require-prior-idle-ms = <100>;
+            layers = <0>;
+        };
+
+        mk__hash {
+            bindings = <&kp LS(NUMBER_3)>;
+            key-positions = <2 3>;
+            slow-release;
+            require-prior-idle-ms = <100>;
+            layers = <0>;
+        };
+
+        mk_dollar {
+            bindings = <&kp LS(NUMBER_4)>;
+            key-positions = <3 4>;
+            slow-release;
+            require-prior-idle-ms = <100>;
+            layers = <0>;
+        };
+
+        mk_percent {
+            bindings = <&kp LS(N5)>;
+            key-positions = <4 5>;
+            slow-release;
+            require-prior-idle-ms = <100>;
+            layers = <0>;
+        };
+
+        mk_caret {
+            bindings = <&kp LS(NUMBER_6)>;
+            key-positions = <5 6>;
+            slow-release;
+            require-prior-idle-ms = <100>;
+            layers = <0>;
+        };
+
+        mk_ampersand {
+            bindings = <&kp LS(N7)>;
+            key-positions = <6 7>;
+            slow-release;
+            require-prior-idle-ms = <100>;
+            layers = <0>;
+        };
+
+        mk_asterisk {
+            bindings = <&kp LS(N8)>;
+            key-positions = <7 8>;
+            slow-release;
+            require-prior-idle-ms = <100>;
+            layers = <0>;
+        };
+
+        mk_lParentheses {
+            bindings = <&kp LS(NUMBER_9)>;
+            key-positions = <7 8>;
+            slow-release;
+            require-prior-idle-ms = <100>;
+            layers = <0>;
+        };
+
+        mk_rParentheses {
+            bindings = <&kp LS(NUMBER_0)>;
+            key-positions = <8 9>;
             slow-release;
             require-prior-idle-ms = <100>;
             layers = <0>;
