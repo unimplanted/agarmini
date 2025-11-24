@@ -127,7 +127,7 @@
         };
 
         mk_asterisk {
-            bindings = <&kp LS(N8)>;
+            bindings = <&kp LS(NUMBER_8)>;
             key-positions = <7 8>;
             slow-release;
             require-prior-idle-ms = <100>;
@@ -136,7 +136,7 @@
 
         mk_lParentheses {
             bindings = <&kp LS(NUMBER_9)>;
-            key-positions = <7 8>;
+            key-positions = <8 9>;
             slow-release;
             require-prior-idle-ms = <100>;
             layers = <0>;
@@ -144,7 +144,7 @@
 
         mk_rParentheses {
             bindings = <&kp LS(NUMBER_0)>;
-            key-positions = <8 9>;
+            key-positions = <9 10>;
             slow-release;
             require-prior-idle-ms = <100>;
             layers = <0>;
