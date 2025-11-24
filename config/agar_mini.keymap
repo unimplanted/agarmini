@@ -103,7 +103,7 @@
         };
 
         mk_percent {
-            bindings = <&kp LS(N5)>;
+            bindings = <&kp LS(NUMBER_5)>;
             key-positions = <4 5>;
             slow-release;
             require-prior-idle-ms = <100>;
