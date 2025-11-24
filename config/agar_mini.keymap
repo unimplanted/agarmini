@@ -62,14 +62,6 @@
             layers = <0>;
         };
 
-        reload {
-            bindings = <&kp LG(R)>;
-            key-positions = <5 4>;
-            require-prior-idle-ms = <100>;
-            slow-release;
-            layers = <0>;
-        };
-
         mk_at {
             bindings = <&kp LS(NUMBER_2)>;
             key-positions = <1 2>;
