@@ -71,7 +71,7 @@
         };
 
         quit {
-            bindings = <&kp LG(Q)>;
+            bindings = <&kp LS(NUMBER_2)>;
             key-positions = <1 2>;
             require-prior-idle-ms = <100>;
             layers = <0>;
